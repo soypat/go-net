@@ -6,3 +6,7 @@
 //go:build gnet_lneto
 
 package gnet
+
+func newDefaultStack() *LnetoStack {
+	return NewLnetoStack("", DefaultLnetoStackConfig())
+}

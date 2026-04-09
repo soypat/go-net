@@ -1,7 +1,5 @@
 github.com/google/btree v1.1.2 h1:xf4v41cLI2Z6FxbKm+8Bu+m8ifhj15JuZ9sa0jZCMUU=
 github.com/google/btree v1.1.2/go.mod h1:qOPhT0dTNdNzV6Z/lhRX0YXUafgPLFUh+gZMl761Gm4=
-github.com/soypat/lneto v0.0.0-20260409154450-548d96da95e0 h1:z0s6xeHAoQhX+QtluLcp2mfPhBa21caW7IlTjORW/Kk=
-github.com/soypat/lneto v0.0.0-20260409154450-548d96da95e0/go.mod h1:g/8Lk+hIsMZydyWDJjK2YfsCuG6jA5mWCO6U+4S7w1U=
 github.com/soypat/lneto v0.0.0-20260409231345-568ef2854f83 h1:FOx6ni4fWbxy0K/43PQ5E70rFocQX/xtjjGajC56M0g=
 github.com/soypat/lneto v0.0.0-20260409231345-568ef2854f83/go.mod h1:g/8Lk+hIsMZydyWDJjK2YfsCuG6jA5mWCO6U+4S7w1U=
 golang.org/x/sys v0.26.0 h1:KHjCJyddX0LoSTb3J+vWpupP9p0oznkqVk/IfjymZbo=
