@@ -69,11 +69,8 @@ func (stack *GVisorStack) HardwareAddress() (net.HardwareAddr, error) {
 }
 
 // Configure implements [Stack].
-func (iface *GVisorStack) Configure(mac string, ip netip.Prefix, gw netip.Addr) (err error) {
-	linkAddr, err := tcpip.ParseMACAddress(mac)
-	if err != nil {
-		return
-	}
+func (iface *GVisorStack) Configure(mac net.HardwareAddr, ip netip.Prefix, gw netip.Addr) (err error) {
+	linkAddr := tcpip.LinkAddress(mac)
 	if iface.NICID == 0 {
 		iface.NICID = tcpip.NICID(NICID)
 	}
